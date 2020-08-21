@@ -1,7 +1,7 @@
 {
   "name": "com.vulpes.assetpreprocessor",
   "displayName": "Vulpes Asset Preprocessor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2019.1",
   "description": "An Asset Preprocessor used for automatically configuring import options for Models, Textures, and Audio assets within the Unity editor.",
   "keywords": [

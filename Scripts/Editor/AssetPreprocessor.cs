@@ -45,7 +45,11 @@ namespace Vulpes.Editor.AssetPreprocessor
                 return;
             }
             // Models are easy, we just want to turn off material and animation import.
+#if UNITY_2019_1 || UNITY_2019_2
+            modelImport.importMaterials = false;
+#else
             modelImport.materialImportMode = ModelImporterMaterialImportMode.None;
+#endif
             modelImport.importAnimation = false;
         }
 
